@@ -6,7 +6,7 @@ import Highlight from "./ui/Highlight";
 const Highlights = () => {
   return (
     <section id="highlights">
-      <div className="container">
+      <div className="container section-bg">
         <div className="row">
           <h2 className="section__title">
             Why Choose <span className="purple">Library</span>

@@ -25,7 +25,7 @@ body {
 nav {
   height: 80px;
   display: flex;
-  box-shadow: 0 20px 14px 0 rgba(245, 245, 245, 0.05);
+  box-shadow: 0 10px 16px 8px rgb(5 84 135 / 21%);
   background-color: #242424;
   position: relative;
 }
@@ -233,7 +233,7 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(45, 41, 53, 0.1)
+  background-color: rgba(45, 41, 53, 0.1);
 }
 
 header {
@@ -271,7 +271,6 @@ header {
 }
 
 .container {
-  background-color: #15262cd8;
   padding: 56px 0;
 }
 
@@ -305,7 +304,9 @@ HIGHLIGHTS
   position: relative;
   max-width: 100vw;
 }
-
+.section-bg{
+  background-color: #10262a;
+}
 #highlights:after,
 #highlights:before {
   filter:invert(55%) sepia(14%) saturate(23) hue-rotate(140deg) brightness(19%) contrast(89%);
@@ -332,6 +333,7 @@ HIGHLIGHTS
 }
 
 .highlight__wrapper {
+  
   display: flex;
   flex-wrap: wrap;
 }
@@ -345,13 +347,14 @@ HIGHLIGHTS
 }
 
 .highlight__para {
+  color: rgb(192, 212, 217);
   text-align: center;
   max-width: 280px;
 }
 
 .highlight__img {
-  border: 2px solid #7342d65d;
-  color: #7342d6;
+  border: 2px solid #b0dcee;
+  color: #08a4e2;
   width: 100px;
   height: 100px;
   display: flex;
@@ -363,6 +366,7 @@ HIGHLIGHTS
 }
 
 .highlight__subtitle {
+  color: #00668D;
   font-size: 20px;
   margin-bottom: 16px;
   text-align: center;
@@ -376,7 +380,7 @@ FEATURES
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color:#242424;
 }
 
 .books {
@@ -468,7 +472,7 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #10262a;
 }
 
 /* 
@@ -512,7 +516,7 @@ BOOKS PAGE
 */
 
 #books__body {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color:rgba(45, 41, 53, 0.1);
   flex: 1;
   display: flex;
   flex-direction: column;
