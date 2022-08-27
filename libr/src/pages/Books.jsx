@@ -30,15 +30,8 @@ const Books = ({ books: initialBooks }) => {
           )
       );
     }
-    if (filter ==="RATING") {
-        setBooks(
-            books
-              .slice()
-              .sort(
-                (a, b) =>
-                 b.rating - a.rating
-              )
-          );
+    if (filter === "RATING") {
+      setBooks(books.slice().sort((a, b) => b.rating - a.rating));
     }
   }
   return (
@@ -48,20 +41,22 @@ const Books = ({ books: initialBooks }) => {
           <div className="books__container">
             <div className="row">
               <div className="books__header">
-                <h2 className="section__title books__header--title">
-                  All Books
-                </h2>
+                <h2 className="section__title books__header--title">Libros </h2>
                 <select
                   id="filter"
                   defaultValue="DEFAULT"
                   onChange={(event) => filterBooks(event.target.value)}
                 >
                   <option value="DEFAULT" disabled>
-                    Sort
+                    Ordenar por
                   </option>
-                  <option value="LOW_TO_HIGH">Price, Low to High</option>
-                  <option value="HIGH_TO_LOW">Price, High to Low</option>
-                  <option value="RATING">Highest rated</option>
+                  <option value="LOW_TO_HIGH">
+                    Precio: de más bajo a más alto
+                  </option>
+                  <option value="HIGH_TO_LOW">
+                    Precio: de más alto a más bajo
+                  </option>
+                  <option value="RATING">Valoración más alta</option>
                 </select>
               </div>
               <div className="books">

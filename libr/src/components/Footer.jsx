@@ -16,16 +16,17 @@ const Footer = () => {
             <Link to="/" className="footer__link">
               Home
             </Link>
-            <span className="footer__link no-cursor">About</span>
+           
             <Link to="/books" className="footer__link">
-              Books
+              Libros
             </Link>
             <Link to="/cart" className="footer__link">
-              Cart
+              Carrito
             </Link>
           </div>
           <div className="footer__copyright">Copyright &copy; 2022 Library</div>
-        </div>
+        <a href="https://twitter.com/An_Di_Spucci"><span className="footer__link asdp">Quieres una pagina así?</span> </a>
+        </div> 
       </div>
     </footer>
   );
