@@ -410,12 +410,12 @@ FEATURES
   width: 100%;
   max-width: 250px;
   height: 320px;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(37, 114, 145);
   margin-bottom: 8px;
 }
 
 .skeleton {
-  background-color: rgb(37, 37, 37) !important;
+  background-color: rgb(28, 143, 179) !important;
   margin-bottom: 8px;
 }
 
